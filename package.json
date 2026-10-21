@@ -1,0 +1,23 @@
+{
+  "name": "healthrecords",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Wallet-authenticated patient records with encrypted IPFS storage",
+  "engines": { "node": ">=22 <25" },
+  "scripts": {
+    "setup": "python scripts/setup_project.py",
+    "dev": "python scripts/dev.py",
+    "start": "python scripts/dev.py",
+    "build": "node scripts/compile.cjs",
+    "chain": "node scripts/chain.cjs",
+    "deploy": "node scripts/deploy.cjs",
+    "test": "python scripts/test_project.py",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "ethers": "6.17.0",
+    "hardhat": "2.29.1",
+    "solc": "0.8.36"
+  }
+}
