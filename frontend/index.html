@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="green">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
+  <meta name="theme-color" content="#137968" />
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' http://127.0.0.1:8000 http://127.0.0.1:8545 http://localhost:8545; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'" />
   <title>HealthRecords · Patient, Doctor & Administrator Login</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <script src="./vendor/ethers.umd.min.js" defer></script>
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=3.1.0-green" defer></script>
   <style>
     :root { --ink:#172c35; --muted:#6a7a80; --teal:#137968; --teal-dark:#075a4d; --pale:#eaf4f0; --line:#dfE7e3; --canvas:#f6f8f5; --red:#ae3f38; }
     * { box-sizing:border-box; }
@@ -130,7 +131,7 @@
     @media(max-width:1000px) { .auth-shell { gap:22px; padding:20px; grid-template-columns:minmax(280px,.8fr) minmax(400px,1.2fr); } .story { padding:28px; } .story h1 { font-size:42px; } .record-visual { width:225px; } .workspace-grid { grid-template-columns:1fr; } }
     @media(max-width:760px) { .auth-shell { display:block; padding:20px; } .story { min-height:0; padding:22px; } .story .eyebrow { margin:25px 0 0; } .story h1 { font-size:32px; max-width:none; margin-top:12px; } .story p { margin:0; font-size:13px; max-width:none; } .record-visual,.story-footer { display:none; } .auth-main { padding:30px 4px 10px; } .auth-kicker { margin-bottom:20px; } .topbar { padding:16px; } .topbar .brand { font-size:16px; } .topbar-right { gap:9px; } .identity { max-width:130px; } .identity strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; } .topbar .secondary { padding:8px; } .page-heading { flex-direction:column; } .connection-pill { align-items:flex-start; } .dashboard-main { padding:25px 16px; } .metrics { gap:9px; } .metric { padding:12px; } .metric-label { font-size:9px; letter-spacing:.3px; } .metric-value { font-size:16px; } .metric-value.small { font-size:11px; line-height:2.2; } .card { padding:19px; } .status { bottom:12px; } }
   </style>
-  <link rel="stylesheet" href="./portal.css" />
+  <link rel="stylesheet" href="./portal.css?v=3.1.0-green" />
 </head>
 <body data-portal-role="patient">
   <div id="status" class="status" role="status" aria-live="polite" hidden></div>

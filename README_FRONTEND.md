@@ -1,5 +1,7 @@
 # HealthRecords website
 
+Version 3.1.0 applies the green theme to the login screen, role selection, wallet dialog, sidebar, buttons and dashboard cards. `docs/green-login.png` shows the actual running interface. The HTML versions its stylesheet and application-script URLs to refresh older browser caches.
+
 Start the complete app with `npm run dev` after `npm run setup`. The website and API share port 5500. A separate static file server is no longer required.
 
 The portal retains the uploaded responsive design, role-specific login URLs (`?role=patient`, `?role=doctor`, `?role=admin`), wallet dialog, patient/doctor/admin dashboards and blockchain audit trail.

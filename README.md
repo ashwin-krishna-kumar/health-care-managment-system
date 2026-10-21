@@ -1,6 +1,14 @@
 # HealthRecords
 
-A complete local development app for wallet-bound Patient, Doctor and Administrator accounts, encrypted IPFS medical reports, and on-chain consent. The original uploaded screens and Solidity contract are retained.
+A complete local development app for wallet-bound Patient, Doctor and Administrator accounts, encrypted IPFS medical reports, and on-chain consent. Version **3.1.0** uses the green HealthRecords theme throughout the login, wallet dialog, and role dashboards.
+
+![Green HealthRecords login](docs/green-login.png)
+
+## Update from the blue version
+
+Download the latest project ZIP from GitHub. For an already working installation of the completed project, copy the ZIP's **frontend** folder into your existing project folder and replace the older frontend files. Refresh the browser with **Ctrl+F5**. The updated HTML requests versioned assets so the browser loads the green stylesheet.
+
+Keep your existing backend configuration, database, encryption key and IPFS store. The web server can remain running while these frontend files are replaced. For a new installation, follow the startup instructions below from the newly extracted project directory.
 
 ## Start
 

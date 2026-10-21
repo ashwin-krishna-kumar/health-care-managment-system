@@ -1,9 +1,11 @@
 {
   "name": "healthrecords",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": true,
   "description": "Wallet-authenticated patient records with encrypted IPFS storage",
-  "engines": { "node": ">=22 <25" },
+  "engines": {
+    "node": ">=22 <25"
+  },
   "scripts": {
     "setup": "python scripts/setup_project.py",
     "dev": "python scripts/dev.py",
